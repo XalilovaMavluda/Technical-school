@@ -1,0 +1,188 @@
+body {
+    margin-top: 0;
+}
+header {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+}
+.container-fluid {
+    background-color: cadetblue;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 15px;
+    opacity: 0.5;
+    
+}
+
+.text {
+    font-weight: bold;
+    color: #161d6f;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+   }
+                /*card1*/
+  .card1 {
+      background-color: #c7ffd8;
+  }              
+
+
+
+h2, h4, h5 {
+    text-align: center;
+    color: #161d6f;
+    font-family: reggae one;
+    
+}
+P {
+    text-align: center;
+    color:#1e212d;
+}
+
+#card1-section {
+   background-color:#a4ebf3 ; 
+} 
+
+
+#card2-section {
+    background-color: #c7ffd8;
+}
+.cardd {
+    background-color: #94b5c0;
+}
+.carrd {
+    background-color: #a4ebf3;
+}
+
+
+.img {
+    width: 100%;
+    height: 50%;
+    }
+      
+.img:hover {
+    transform: rotate(360 deg);
+        opacity: 0.5;
+      }  
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 30px;
+  }
+.size  {
+    width: 25%;
+    height: 30%;
+
+}
+
+#card3 {
+    background-color:#c7ffd8;
+    width: 100% auto;
+    height: 150px;;
+}
+.adress{
+  width: 940px;
+  height: 180px;
+  
+   
+}
+.col-sm-6{
+  margin-top: 10px;
+}
+.form-control{
+  width: 250px;
+  height: 40px;
+ 
+}
+i {
+    padding: 25px;
+    color: #161d6f;
+    font-size: 2rem;
+}
+/*footer*/
+#footer {
+    background: url("img/texnikum.jpg") top center no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 80px 0;
+    position: relative;
+    
+  }
+  
+  #footer::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  #footer .container {
+    position: relative;
+  }
+  
+  #footer h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+    font-family: "Satisfy", serif;
+    padding: 0;
+    margin: 0 0 15px 0;
+  }
+  
+  #footer p {
+    font-size: 15;
+    font-style: italic;
+    padding: 0;
+    margin: 0 0 40px 0;
+    color: #fff;
+  }
+  
+  #footer .social-links {
+    margin: 0 0 40px 0;
+  }
+  i{
+    font-size: 25px;
+    color: wheat;
+  }
+  
+  #footer .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #ffb727;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  
+  #footer .social-links a:hover {
+    background: #f3a200;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #footer .copyright {
+    margin: 0 0 5px 0;
+  }
+  
+  #footer .credits {
+    font-size: 13px;
+  }
